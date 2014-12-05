@@ -7,6 +7,9 @@ class MyTest(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(8 / 2, 5)
+        
+    def test_foo(self):
+        self.assertEqual('foo', 'bar')
 
 if __name__ == '__main__':
     unittest.main()
